@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T07:49:02.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="uglZlmeYe-eXJQ3pCeVb" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T08:38:12.870Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="F-nE6M86GMpDZpJCjrGu" version="22.1.11" type="github">
   <diagram name="第 1 页" id="W5mVg4F8SoVZQXLFe4Fg">
-    <mxGraphModel dx="1514" dy="857" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1262" dy="714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
         <mxCell id="OVB22undnlhZ2M5nuWr2-27" value="+flightNumber : String " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OVB22undnlhZ2M5nuWr2-24">
           <mxGeometry y="78.25714329310826" width="203" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OVB22undnlhZ2M5nuWr2-28" value="+paymentAmount : Decimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OVB22undnlhZ2M5nuWr2-24">
+        <mxCell id="OVB22undnlhZ2M5nuWr2-28" value="+paymentAmount : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OVB22undnlhZ2M5nuWr2-24">
           <mxGeometry y="104.25714329310826" width="203" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OVB22undnlhZ2M5nuWr2-29" value="+paymentTime : DateTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OVB22undnlhZ2M5nuWr2-24">

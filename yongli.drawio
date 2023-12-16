@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T08:35:03.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ibNOC6s_duAiPLeYqXNS" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T08:38:07.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="4PL5iucaRVoNvCtSmQiR" version="22.1.11" type="github">
   <diagram name="第 1 页" id="4s7mdrTIVjWsUwjCqXbX">
     <mxGraphModel dx="1514" dy="857" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,9 +9,6 @@
             <mxGeometry x="90" y="120" width="499" height="575" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-3" value="机票预订系统" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="24" y="713" width="591" height="226" as="geometry" />
-        </mxCell>
         <mxCell id="aRkHaUMOX4YSNSBFG7Bo-4" value="预订处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="49" y="820" width="80" height="33" as="geometry" />
         </mxCell>
@@ -67,9 +64,6 @@
               <mxPoint x="666" y="856" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-16" value="机票预订系统" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="136" y="1212" width="449" height="592" as="geometry" />
         </mxCell>
         <mxCell id="aRkHaUMOX4YSNSBFG7Bo-17" value="预订系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="372" y="1237" width="79" height="33" as="geometry" />

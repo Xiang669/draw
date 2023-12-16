@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T07:19:26.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="kj8wWfKyC1ORZ3KMsa0n" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T08:35:03.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ibNOC6s_duAiPLeYqXNS" version="22.1.11" type="github">
   <diagram name="第 1 页" id="4s7mdrTIVjWsUwjCqXbX">
     <mxGraphModel dx="1514" dy="857" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,175 @@
             <mxGeometry x="90" y="120" width="499" height="575" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-3" value="机票预订系统" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="24" y="713" width="591" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-4" value="预订处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="49" y="820" width="80" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-5" value="航班信息管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="276" y="756" width="113" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-6" value="支付处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="292" y="839" width="81" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-7" value="机票生成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="504" y="839" width="81" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-8" value="旅客" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="723" y="854" width="48" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-9" value="提供信息" style="curved=1;startArrow=none;endArrow=block;exitX=0.008333365122477213;exitY=0.8366764557761703;entryX=0.8323378403243605;entryY=1.0166667446945652;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-8" target="aRkHaUMOX4YSNSBFG7Bo-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="666" y="908" />
+              <mxPoint x="202" y="908" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-10" value="查询航班" style="curved=1;startArrow=none;endArrow=block;exitX=0.782339662776652;exitY=0.004545486334598426;entryX=-0.003539768995436947;entryY=0.25199061800297656;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-4" target="aRkHaUMOX4YSNSBFG7Bo-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="202" y="753" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-11" value="返回航班选项" style="curved=1;startArrow=none;endArrow=block;exitX=-0.003539768995436947;exitY=0.8005081753798808;entryX=0.9975000381469726;entryY=0.06560088690326678;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-5" target="aRkHaUMOX4YSNSBFG7Bo-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="202" y="795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-12" value="生成账单" style="curved=1;startArrow=none;endArrow=block;exitX=0.9975000381469726;exitY=0.7155006034795018;entryX=-0.004938196252893518;entryY=0.5166667157953436;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-4" target="aRkHaUMOX4YSNSBFG7Bo-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="202" y="856" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-13" value="支付确认" style="curved=1;startArrow=none;endArrow=block;exitX=0.990123513304157;exitY=0.5166667157953436;entryX=-0.002469098126446759;entryY=0.5166667157953436;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-6" target="aRkHaUMOX4YSNSBFG7Bo-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-14" value="生成机票" style="curved=1;startArrow=none;endArrow=block;exitX=0.9925926114306037;exitY=0.5166667157953436;entryX=0.008333365122477213;entryY=0.37384167870808593;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-7" target="aRkHaUMOX4YSNSBFG7Bo-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="666" y="856" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-16" value="机票预订系统" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="136" y="1212" width="449" height="592" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-17" value="预订系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="372" y="1237" width="79" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-18" value="旅客数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="461" y="1746" width="80" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-19" value="航班数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="202" y="1339" width="81" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-20" value="账单数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="371" y="1339" width="80" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-21" value="支付系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="371" y="1441" width="80" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-22" value="机票数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="371" y="1542" width="81" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-23" value="旅客" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="53" y="1644" width="48" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5685093930501957;exitY=1.7339533025568182e-7;entryX=0.9381016021405559;entryY=1.0121212583599668;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-18" target="aRkHaUMOX4YSNSBFG7Bo-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="518" y="1712" />
+              <mxPoint x="518" y="1305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-25" value="预订信息" style="curved=1;startArrow=none;endArrow=block;exitX=-0.003164484531064577;exitY=0.7939895351501657;entryX=0.3210422232899607;entryY=-0.0060605713815400095;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-17" target="aRkHaUMOX4YSNSBFG7Bo-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="1305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-26" value="航班选项" style="curved=1;startArrow=none;endArrow=block;exitX=0.6645286284274899;exitY=-0.0060605713815400095;entryX=-0.003164484531064577;entryY=0.9865476701448024;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-19" target="aRkHaUMOX4YSNSBFG7Bo-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="284" y="1305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-27" value="预订确认" style="curved=1;startArrow=none;endArrow=block;exitX=0.3224056270905065;exitY=1.0121212583599668;entryX=0.3308755567518752;entryY=-0.0060605713815400095;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-17" target="aRkHaUMOX4YSNSBFG7Bo-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="369" y="1305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.004375052452087402;exitY=0.9303687898012468;entryX=0.004375052452087402;entryY=0.06357075441410003;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-20" target="aRkHaUMOX4YSNSBFG7Bo-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="268" y="1406" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-29" value="支付确认" style="curved=1;startArrow=none;endArrow=block;exitX=0.004375052452087402;exitY=0.9800589830858498;entryX=-0.0006172038890697338;entryY=0.02718909832879035;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-21" target="aRkHaUMOX4YSNSBFG7Bo-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="1508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-30" value="输入信息" style="curved=1;startArrow=none;endArrow=block;exitX=0.9958333174387614;exitY=0.6597247330697069;entryX=0.002500033378601074;entryY=0.153279321485608;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-23" target="aRkHaUMOX4YSNSBFG7Bo-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="327" y="1712" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.6505329715138615;exitY=1.7339533025568182e-7;entryX=0.9968355154689355;entryY=0.9886408926308281;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-18" target="aRkHaUMOX4YSNSBFG7Bo-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="1712" />
+              <mxPoint x="538" y="1305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-32" value="生成账单" style="curved=1;startArrow=none;endArrow=block;exitX=0.6737572609799064;exitY=1.0121212583599668;entryX=0.6778352952176576;entryY=-0.0060605713815400095;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-17" target="aRkHaUMOX4YSNSBFG7Bo-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="454" y="1305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-33" value="支付信息" style="curved=1;startArrow=none;endArrow=block;exitX=0.6761948252128598;exitY=1.0060606869784268;entryX=0.6761948252128598;entryY=-0.012121142763080019;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-20" target="aRkHaUMOX4YSNSBFG7Bo-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="453" y="1406" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-34" value="生成机票" style="curved=1;startArrow=none;endArrow=block;exitX=0.6778352952176576;exitY=1.0000001155968867;entryX=0.6694669582396618;entryY=0.012121316158410275;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-21" target="aRkHaUMOX4YSNSBFG7Bo-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="454" y="1508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRkHaUMOX4YSNSBFG7Bo-35" value="机票" style="curved=1;startArrow=none;endArrow=block;exitX=0.49691365088945555;exitY=1.0242425745183772;entryX=0.9958333174387614;entryY=0.4018658377013746;rounded=0;" edge="1" parent="1" source="aRkHaUMOX4YSNSBFG7Bo-22" target="aRkHaUMOX4YSNSBFG7Bo-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="411" y="1610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
